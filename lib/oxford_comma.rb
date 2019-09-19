@@ -4,10 +4,10 @@ def oxford_comma(array)
   elsif array.length < 3
     array.join(" and ")
   else array.length >= 3
-    array.collect do |word|
+    new_array = array.collect do |word|
       word + ", "  
     end
-    array.join
+    new_array.join
   end
     
 end
