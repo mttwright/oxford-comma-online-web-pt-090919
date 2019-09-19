@@ -7,7 +7,7 @@ def oxford_comma(array)
     new_array = array.collect do |word|
       word + ", "  
     end
-    last_word = new_array[-1].split
+    last_word = new_array[-1].split("")
     new_array.join
   end
     
