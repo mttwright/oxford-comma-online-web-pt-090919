@@ -13,6 +13,7 @@ def oxford_comma(array)
     last_word.unshift("and ")
     new_array.pop
     new_array.push(last_word)
+    new_array.join
   end
     
 end
