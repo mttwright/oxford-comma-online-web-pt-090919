@@ -18,4 +18,4 @@ def oxford_comma(array)
     
 end
 
-
+puts oxford_comma(["ham", "bologna", "ciabatta", "milksteak"])
