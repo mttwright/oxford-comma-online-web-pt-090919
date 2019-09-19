@@ -8,7 +8,11 @@ def oxford_comma(array)
       word + ", "  
     end
     last_word = new_array[-1].split("")
-    new_array.join
+    last_word.pop
+    last_word.pop
+    last_word.unshift("and ")
+    new_array.pop
+    new_array.push(last_word)
   end
     
 end
